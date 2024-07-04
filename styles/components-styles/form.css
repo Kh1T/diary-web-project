@@ -1,0 +1,51 @@
+.test{
+    display: grid;
+    gap: 4rem;
+    width:95%;
+    margin-left: 0px;
+}
+@media (min-width: 768px) {
+    .test {
+    display: flex;
+    gap: 4rem;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    }   
+}
+
+.create-note-container{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    max-width: 900px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border: black;
+    border-width: 2px;
+    right: 1rem; 
+    bottom: 10;
+    grid-column: span 7;
+    border: 2px solid black ;
+    border-top: none;
+    border-bottom:none;
+}
+
+.note__form {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-width: 2px;
+    border-radius: 18px;
+    background-color: white;
+}
