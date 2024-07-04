@@ -50,6 +50,7 @@
   font-weight: bold;
   border: none;
   cursor: pointer;
+  width:fit-content;
 }
 
 .note__description {
